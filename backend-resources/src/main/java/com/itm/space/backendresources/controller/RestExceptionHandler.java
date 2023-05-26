@@ -27,5 +27,4 @@ public class RestExceptionHandler {
                 .forEach(error -> errorMap.put(error.getField(), error.getDefaultMessage()));
         return errorMap;
     }
-
 }
